@@ -6,17 +6,15 @@
 // 4. Change the icon theme or install Symbols (miguelsolorio.symbols)
 // 5. Change/add your specific settings whatever you like
 // ⚠ Made for Windows so idk how its gonna look on Mac
-// ⚠ Original creator of the config (https://gist.github.com/Lexizz7/a695641179c5308d403cba9aed4d1694)
 {
     // General
     "json.schemaDownload.enable": true,
     "breadcrumbs.enabled": false,
     "update.mode": "manual",
     "update.showReleaseNotes": false,
-    "window.titleBarStyle": "native",
-    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "custom",
     "window.commandCenter": false,
-    "window.menuBarVisibility": "hidden",
+    "window.menuBarVisibility": "classic",
     "window.restoreWindows": "all",
     "files.associations": {
       ".env.*": "dotenv"
@@ -26,11 +24,10 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.list.smoothScrolling": true,
     "workbench.iconTheme": "symbols",
-    "workbench.colorTheme": "Min Dark",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.editor.labelFormat": "short",
     "workbench.editor.empty.hint": "hidden",
     "workbench.editor.editorActionsLocation": "default",
-    "workbench.activityBar.location": "hidden",
     "workbench.statusBar.visible": false,
     "workbench.layoutControl.enabled": false,
   
@@ -39,7 +36,7 @@
     "editor.lineHeight": 1.8,
     // "editor.rulers": [80, 120],
     "editor.tabSize": 2,
-    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggestSelection": "first",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.smoothScrolling": true,
     "editor.parameterHints.enabled": true,
@@ -51,7 +48,6 @@
     "editor.semanticHighlighting.enabled": true,
     "editor.inlineSuggest.enabled": true,
     "editor.hideCursorInOverviewRuler": false,
-    "editor.minimap.enabled": false,
     "editor.scrollbar.vertical": "auto",
     "editor.renderLineHighlight": "all",
     "editor.quickSuggestions": {
@@ -161,6 +157,12 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "terminal.integrated.env.windows": {},
+    "glassit.alpha": 255,
+    "console-ninja.featureSet": "Community",
+    "workbench.activityBar.location": "hidden",
+    "redhat.telemetry.enabled": true,
+    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration"
   }
